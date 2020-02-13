@@ -43,7 +43,7 @@ export default function App() {
 
    return (
     <SafeAreaView style={styles.container}>
-      {match ? <Text>You Win, Try Again!</Text> : <Text></Text>}
+      {match ? <Text>MATCHED!!</Text> : <Text></Text>}
       <Text>count: {count}</Text>
       <View>
         <MonsterImg imageSrc={head[headImage]}/>
